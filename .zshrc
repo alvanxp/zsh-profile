@@ -82,9 +82,9 @@ alias c='clear'
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 # Shell integrations
 #eval "$(fzf --zsh)"
-eval "$(zoxide init --cmd cd zsh)"
+
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 eval "$(fzf --zsh)"
-
+eval "$(zoxide init --cmd cd zsh)"
 
 
