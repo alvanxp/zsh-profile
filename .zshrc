@@ -85,6 +85,4 @@ alias c='clear'
 
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 eval "$(fzf --zsh)"
-eval "$(zoxide init --cmd cd zsh)"
-
-
+eval "$(zoxide init zsh)"
